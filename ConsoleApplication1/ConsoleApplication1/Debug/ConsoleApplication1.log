@@ -1,0 +1,67 @@
+﻿Build started 8/22/2016 2:27:43 PM.
+     1>Project "D:\Protocol+Dissector\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): warning C4003: not enough actual parameters for macro 'PACKED_STRUCT'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): error C2332: 'struct' : missing tag name
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): warning C4091: 'typedef ' : ignored on left of 'int' when no variable is declared
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): error C2144: syntax error : '<unnamed-tag>' should be preceded by ';'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): warning C4094: untagged 'struct' declared no symbols
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): error C2143: syntax error : missing ';' before '{'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(34): error C2447: '{' : missing function header (old-style formal list?)
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(42): error C2061: syntax error : identifier 'msg'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(46): error C2146: syntax error : missing ';' before identifier 'packet'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(46): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(172): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(172): error C2228: left of '.seqNumber' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(173): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(173): error C2228: left of '.type' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(174): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(174): error C2228: left of '.flag' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(175): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(175): error C2228: left of '.buf' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(175): error C2660: 'memcpy' : function does not take 2 arguments
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(176): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(176): error C2228: left of '.buf' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(176): error C2660: 'sprintf_s' : function does not take 2 arguments
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(177): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(202): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(202): error C2228: left of '.seqNumber' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(203): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(203): error C2228: left of '.type' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(204): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(204): error C2228: left of '.flag' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(205): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(205): error C2228: left of '.buf' must have class/struct/union
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(205): error C2660: 'memcpy' : function does not take 2 arguments
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(206): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(227): error C2061: syntax error : identifier 'msg'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(229): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(229): error C2227: left of '->seqNumber' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(230): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(230): error C2227: left of '->type' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(231): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(231): error C2227: left of '->flag' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(232): error C2065: 'packet' : undeclared identifier
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(232): error C2227: left of '->buf' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>d:\protocol+dissector\consoleapplication1\consoleapplication1\consoleapplication1.cpp(232): error C2660: 'memcpy' : function does not take 1 arguments
+     1>Done Building Project "D:\Protocol+Dissector\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.35
